@@ -5,18 +5,18 @@ document.addEventListener('DOMContentLoaded', function() {
 function loadMovieListings() {
     // Updated movie data without descriptions, directors, and years
     const movies = [
-        { title: 'One Fine Day', imageUrl: "file:///C:/Users/esraf/OneDrive/Masa%C3%BCst%C3%BC/proje/onefineday.jpg" },
-        { title: 'Jane Eyre', imageUrl: "file:///C:/Users/esraf/OneDrive/Masa%C3%BCst%C3%BC/proje/janeeyre.jpg" },
-        { title: 'Zodiac', imageUrl: "file:///C:/Users/esraf/OneDrive/Masa%C3%BCst%C3%BC/proje/zodiac.jpg" },
-        { title: 'Little Women', imageUrl: "file:///C:/Users/esraf/OneDrive/Masa%C3%BCst%C3%BC/proje/littlewomen.jpg" },
-        { title: 'The Classic', imageUrl: "file:///C:/Users/esraf/OneDrive/Masa%C3%BCst%C3%BC/proje/theclassic.jpg" },
-        { title: 'The Batman', imageUrl: "file:///C:/Users/esraf/OneDrive/Masa%C3%BCst%C3%BC/proje/the%20batman.jpg" },
-        { title: 'Far From Madding Crowd', imageUrl: "file:///C:/Users/esraf/OneDrive/Masa%C3%BCst%C3%BC/proje/far%20from%20maddening%20crowd.jpg" },
-        { title: 'The Sixth Sense', imageUrl: "file:///C:/Users/esraf/OneDrive/Masa%C3%BCst%C3%BC/proje/the%20sixth%20sense.jpg" },
-        { title: 'Mulan', imageUrl: "file:///C:/Users/esraf/OneDrive/Masa%C3%BCst%C3%BC/proje/mulan.jpg" },
-        { title: 'Only You', imageUrl: "file:///C:/Users/esraf/OneDrive/Masa%C3%BCst%C3%BC/proje/only%20you.jpg" },
-        { title: "Ocean's Eleven", imageUrl: "file:///C:/Users/esraf/OneDrive/Masa%C3%BCst%C3%BC/proje/ocean's%20eleven.jpg" },
-        { title: 'Contact', imageUrl: "file:///C:/Users/esraf/OneDrive/Masa%C3%BCst%C3%BC/proje/contact.jpg" },
+        { title: 'One Fine Day', imageUrl: "C:/Users/esraf/OneDrive/Masa%C3%BCst%C3%BC/proje/onefineday.jpg" },
+        { title: 'Jane Eyre', imageUrl: "C:/Users/esraf/OneDrive/Masa%C3%BCst%C3%BC/proje/janeeyre.jpg" },
+        { title: 'Zodiac', imageUrl: "C:/Users/esraf/OneDrive/Masa%C3%BCst%C3%BC/proje/zodiac.jpg" },
+        { title: 'Little Women', imageUrl: "C:/Users/esraf/OneDrive/Masa%C3%BCst%C3%BC/proje/littlewomen.jpg" },
+        { title: 'The Classic', imageUrl: "C:/Users/esraf/OneDrive/Masa%C3%BCst%C3%BC/proje/theclassic.jpg" },
+        { title: 'The Batman', imageUrl: "C:/Users/esraf/OneDrive/Masa%C3%BCst%C3%BC/proje/the%20batman.jpg" },
+        { title: 'Far From Madding Crowd', imageUrl: "C:/Users/esraf/OneDrive/Masa%C3%BCst%C3%BC/proje/far%20from%20maddening%20crowd.jpg" },
+        { title: 'The Sixth Sense', imageUrl: "C:/Users/esraf/OneDrive/Masa%C3%BCst%C3%BC/proje/the%20sixth%20sense.jpg" },
+        { title: 'Mulan', imageUrl: "C:/Users/esraf/OneDrive/Masa%C3%BCst%C3%BC/proje/mulan.jpg" },
+        { title: 'Only You', imageUrl: "C:/Users/esraf/OneDrive/Masa%C3%BCst%C3%BC/proje/only%20you.jpg" },
+        { title: "Ocean's Eleven", imageUrl: "C:/Users/esraf/OneDrive/Masa%C3%BCst%C3%BC/proje/ocean's%20eleven.jpg" },
+        { title: 'Contact', imageUrl: "C:/Users/esraf/OneDrive/Masa%C3%BCst%C3%BC/proje/contact.jpg" },
         // Add more movie data here...
     ];
 
