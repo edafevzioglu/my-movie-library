@@ -1,0 +1,109 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inconsolata', monospace;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #5c0b1d;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    min-height: calc(100vh - 140px); /* Adjust as needed */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.movie {
+    width: 30%;
+    padding: 20px;
+    margin-bottom: 50px;
+    background-color: #faead9;
+    border-radius: 5px;
+}
+
+.movie h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.movie img {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 10px;
+    position: center;
+
+}
+
+.movie a.view-details {
+    color: #5c0b1d;
+    text-decoration: none;
+    text-align: center;
+    position: center;
+    
+}
+
+.movie a.view-details:hover {
+    text-decoration: underline;
+}
+
+.movie-details {
+    padding: 20px;
+    background-color: #faead9;
+    border-radius: 5px;
+    margin-bottom: 20px; /* Add margin-bottom */
+}
+
+.movie-details p {
+    margin-bottom: 20px; /* Add space between paragraphs */
+    text-align: center;
+    padding-bottom: -50px;
+}
+
+
+.movie-details h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+
+footer {
+    background-color: #5c0b1d;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    margin-top: 50px;
+    bottom: 0;
+    width: 100%;
+}

@@ -1,0 +1,190 @@
+prompt 1
+
+can you code me a website similar to letterboxd but for books using html, css and javascript please?
+
+prompt 2
+
+i said letterboxd for books but can you rewrite the code you gave me before and make the website for movies? keep the code same but only change the book related parts please
+
+prompt 3
+
+can you alter the informations of the movies i will give to you in the code for the first 4 movies that are listed? 
+
+prompt 4
+
+1. One Fine Day (1996) directed by Michael Hoffman
+2. Jane Eyre (2011) directed by Cary Joji Fukunaga
+3. Zodiac (2007) directed by David Fincher
+4. Little Women (2019) directed by Greta Gerwig
+
+prompt 5
+
+can you come up with descriptions?
+
+prompt 6
+
+can you replace these descriptions with the placeholder description in the code?
+
+prompt 7 
+
+can you replace these descriptions with the placeholder description in function loadMovieDetails part of the code?
+
+prompt 8
+
+please add these eight movies to the // add more movie data here.. part of the code.
+The Classic (2003) directed by Kwak Jaeyong
+The Batman (2022) directed by Matt Reeves
+Far From Madding Crowd (2015) directed by Thomas Vinterberg
+The Sixth Sense (1999) directed by M. Night Shyamalan
+Mulan (1998) directed by Tony Bancroft, Barry Cook
+Only You (1994) directed by Norman Jewison
+Ocean’s Eleven (2001) directed by Steven Soderbergh
+Contact (1997) directed by Robert Zemeckis
+
+prompt 9
+
+please delete the description part of the loadMovieListings function
+
+prompt 10
+
+can you add a margin-bottom to .movie-details part of the code?
+
+prompt 11
+
+please add an image element for every movie that is listed.
+
+prompt 12
+
+the code i will be giving to you is the last version of the code. please alter this code if i want you to add or remove some elements from it.
+
+prompt 13
+
+change the placeholder description, director and year elements in the loadMovieDetails function according to informations of the movies respectively
+
+prompt 14
+
+add the remaining 8 movies to the loadMovieDetails function please
+
+prompt 15
+
+can you make the image size 350x350 for every image element and delete the director, description and year elements from function loadMovielistings? add the last 8 movies i gave you earlier please.
+
+prompt 16
+
+please delete every image element from function loadMoviedetails
+
+prompt 17
+
+from this code:
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    min-height: calc(100vh - 140px); /* Adjust as needed */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.movie {
+    width: 30%;
+    padding: 20px;
+    margin-bottom: 50px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.movie h2 {
+    margin-top: 0;
+
+}
+
+.movie-details {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    margin-bottom: 50px; /* Add margin-bottom */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    margin-top: 50px;
+    bottom: 0;
+    width: 100%;
+}
+only change the colors #333 to #5c0b1d, white and #f9f9f9 to #faead9 and the font to inconsolata 
+
+prompt 18
+
+change the color of view links link to #5c0b1d and add a hoover.
+
+prompt 19
+
+change the image size from 360x360 to 300x300.
+
+prompt 20
+
+in movie details page add space between the title, director, year and description and also minimize the background 
+
+
+resimler için:
+
+prompt 1 -one fine day-
+
+create a poster for this movie: A 1990s romantic comedy in New York, as two single parents who are white and aged 35 try to take their kids to school in a taxi while it's raining.
+
+prompt 2 -the sixth sense-
+
+create a poster for this movie: The movie follows Malcolm Crowe as he tries to help a young boy who hallucinate supernatural things, uncovering dark secrets along the way.
+
+prompt 3 -the batman-
+
+1. describe batman to me please
+2. can you shorten it to one sentence
+3. can you describe his physical appearance
+
+In this dark and gritty reboot of the iconic superhero franchise, a tall, muscular man with a strong jawline and piercing eyes, often dressed in a black bat-themed costume with a cape and cowl faces off against his most formidable foes as he seeks to protect Gotham City.
+
+prompt 4 -little women-
+
+create a poster for this movie: Greta Gerwig's heartfelt adaptation of Louisa May Alcott's beloved novel follows the March sisters—Jo, Meg, Beth, and Amy—as they navigate the challenges of adolescence, sisterhood, and societal expectations against the backdrop of the American Civil War era.
+
+prompt 5 - zodiac -
+
+create a poster for this movie: A gripping mystery thriller based on real events, Zodiac chronicles the hunt for the notorious criminal who terrorized the San Francisco Bay Area in the late 1960s and early 1970s, weaving together intricate investigations and personal obsessions.
+
+prompt 6 - only you -
+
+A charming romantic comedy, Only You follows a short black haired young woman who travels to Italy in summer searching for her soulmate, guided by a mysterious fortune teller's prediction. 
+
